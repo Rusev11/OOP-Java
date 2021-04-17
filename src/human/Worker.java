@@ -1,4 +1,4 @@
-package firstExercise;
+package human;
 
 public class Worker extends Human implements Comparable<Worker> {
     private double wage;

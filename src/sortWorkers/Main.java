@@ -1,7 +1,6 @@
 package sortWorkers;
 
-import firstExercise.Worker;
-import firstExercise.Worker;
+import human.Worker;
 
 import java.util.Arrays;
 

@@ -1,6 +1,6 @@
 package sortStudents;
 
-import firstExercise.Student;
+import human.Student;
 
 import java.util.*;
 

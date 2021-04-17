@@ -1,4 +1,4 @@
-package firstExercise;
+package human;
 
 public class Student extends Human implements Comparable<Student>{
     private double grade;

@@ -1,9 +1,7 @@
-package secondExercise;
+package sortStudents;
 
 import firstExercise.Student;
-import firstExercise.Worker;
 
-import java.lang.reflect.Array;
 import java.util.*;
 
 public class Main {

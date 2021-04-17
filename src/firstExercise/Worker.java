@@ -1,6 +1,6 @@
 package firstExercise;
 
-public class Worker extends Human{
+public class Worker extends Human implements Comparable<Worker> {
     private double wage;
     private double workedHours;
 
@@ -26,7 +26,18 @@ public class Worker extends Human{
         this.workedHours = workedHours;
     }
 
-    public double getWagePerHour (){
-        return wage/workedHours;
+    public double getWagePerHour() {
+        return wage / workedHours;
+    }
+
+    @Override
+    public int compareTo(Worker o) {
+        if (this.wage < o.getWage()) {
+            return -1;
+        }
+        if (this.wage > o.getWage()) {
+            return 1;
+        }
+        return 0;
     }
 }
